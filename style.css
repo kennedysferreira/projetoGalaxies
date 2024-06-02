@@ -6,6 +6,7 @@
 
 :root {
   font-size: 6.25%;
+  font-family: "Mulish";
 }
 
 body {
@@ -13,11 +14,6 @@ body {
   justify-content: center;
   padding: 74rem 110rem;
   background-color: #1e1e1e;
-}
-
-header,
-main {
-  font-family: "Mulish";
 }
 
 h2 {
