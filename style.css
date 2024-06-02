@@ -8,6 +8,13 @@
   font-size: 6.25%;
 }
 
+body {
+  display: grid;
+  justify-content: center;
+  padding: 74rem 110rem;
+  background-color: #1e1e1e;
+}
+
 header,
 main {
   font-family: "Mulish";
@@ -27,16 +34,12 @@ line-height: 24rem;
 color: #C4C4CC;
 }
 
-body {
-  margin: 0 auto;
-  padding: 74rem 110rem;
-  background-color: #1e1e1e;
-}
 
 header {
   display: flex;
   flex-direction: column;
   gap: 8rem;
+  margin-bottom: 82rem;
 }
 
 header h1 {
@@ -53,13 +56,12 @@ header h2 {
 }
 
 main {
-  
   display: grid;
   grid-template-areas: 
   'A B C'
   'D E F';
   width: 1218rem;
-  gap: 60rem;
+  gap: 48rem 60rem;
 }
 
 .card {
